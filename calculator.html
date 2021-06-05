@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <!--------------- SCREEN DIV ---------------->
+    <div id="grid-container-screen">
+      <div id="screen">
+        <p id="results">0</p>
+      </div>
+    </div>
+
+    <!--------------- BUTTONS DIV ---------------->
+    <div id="flex-container-btn">
+      <div class="flex_items">
+        <button id="button1" class="buttons numBtn">7</button>
+      </div>
+      <!---->
+      <div class="flex_items">
+        <button id="button2" class="buttons numBtn">8</button>
+      </div>
+      <!---->
+      <div class="flex_items">
+        <button id="button3" class="buttons numBtn">9</button>
+      </div>
+      <!---->
+      <div class="flex_items">
+        <button
+          id="button4"
+          class="buttons operator"
+          data-action="add"
+          data-keyType="operator"
+        >
+          +
+        </button>
+      </div>
+      <!---->
+      <div class="flex_items">
+        <button id="button5" class="buttons numBtn">4</button>
+      </div>
+      <!---->
+      <div class="flex_items">
+        <button id="button6" class="buttons numBtn">5</button>
+      </div>
+      <!---->
+      <div class="flex_items">
+        <button id="button7" class="buttons numBtn">6</button>
+      </div>
+      <!---->
+      <div class="flex_items">
+        <button
+          id="button8"
+          class="buttons operator"
+          data-action="subtract"
+          data-keyType="operator"
+        >
+          -
+        </button>
+      </div>
+      <!---->
+      <div class="flex_items">
+        <button id="button9" class="buttons numBtn">1</button>
+      </div>
+      <!---->
+      <div class="flex_items">
+        <button id="button10" class="buttons numBtn">2</button>
+      </div>
+      <!---->
+      <div class="flex_items">
+        <button id="button11" class="buttons numBtn">3</button>
+      </div>
+      <!---->
+      <div class="flex_items">
+        <button
+          id="button12"
+          class="buttons operator"
+          data-action="multiply"
+          data-keyType="operator"
+        >
+          *
+        </button>
+      </div>
+      <!---->
+      <div class="flex_items">
+        <button id="button13" class="buttons numBtn">0</button>
+      </div>
+      <!---->
+      <div class="flex_items">
+        <button id="button14" class="buttons decimal">.</button>
+      </div>
+      <!---->
+      <div class="flex_items">
+        <button
+          id="button15"
+          class="buttons operator"
+          data-action="divide"
+          data-keyType="operator"
+        >
+          /
+        </button>
+      </div>
+      <!---->
+      <div class="flex_items">
+        <button
+          id="button16"
+          class="buttons"
+          style="background-color: #ff7878; color: white"
+          data-action="calculate"
+        >
+          =
+        </button>
+      </div>
+    </div>
+    <!---->
+    <script src="script.js"></script>
+  </body>
+</html>
